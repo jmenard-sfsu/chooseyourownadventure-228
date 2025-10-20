@@ -1,3 +1,44 @@
+body {
+    width: 50%;
+    margin: auto;
+    margin-top: 150px
+}
+
 h1 {
-    font-family: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+}
+
+#greybubble {
+    background: grey;
+    color: white;
+}
+
+#bluebubble {
+    background: #299FE6;
+    color: white;
+    text-align: right;
+}
+
+a {
+    background: lightblue;
+    border: #299FE6;
+    border-radius: 5px;
+    border-style: dashed;
+    padding: 10px;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px; 
+}
+
+div {
+    margin-top: 25px;
+    margin-left: auto;
+    width: fit-content;
 }
