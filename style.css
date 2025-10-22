@@ -1,12 +1,20 @@
 body {
-    width: 50%;
-    margin: auto;
-    margin-top: 150px
+    background-color: rgb(39, 4, 19);
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 h1 {
     font-family: Helvetica, sans-serif;
     font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
 }
 
 p {
@@ -14,18 +22,33 @@ p {
     padding: 10px;
 }
 
+#actions {
+    width: auto;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
 #greybubble {
     background: grey;
     color: white;
+    width: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
 }
 
 #bluebubble {
     background: #299FE6;
     color: white;
     text-align: right;
+    width: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
 }
 
-a {
+#buttons {
     background: lightblue;
     border: #299FE6;
     border-radius: 5px;
@@ -37,8 +60,33 @@ a {
     margin-left: 10px; 
 }
 
-div {
+#buttons {
+    padding: 25px;
+    margin: auto;
+    width: 85%;
+}
+
+#phone {
+    width: 60%;
+    margin: auto;
     margin-top: 25px;
+    background: white;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+#headerimg {
+    display: block;
+    width: 85%;
+    margin: auto;
+}
+
+#textimg {
+    display: block;
     margin-left: auto;
-    width: fit-content;
+    margin-right: 150px;
+    margin-top: 5px;
+    width: 40%;
+    
 }
